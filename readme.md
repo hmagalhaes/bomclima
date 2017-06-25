@@ -26,3 +26,10 @@ A implementação busca o desacoplamento da solução de persistência em quest�
 Para rodar a aplicação utilize o plugin do Tomcat para Maven, que já está configurado no ``pom.xmol``. Acesse o diretório raiz do projeto e rode o seguinte comando:
 ``mvn clean install tomcat7:run``
 A aplicação poderá então ser acessada em [http://localhost:8080/bomclima](http://localhost:8080/bomclima) 
+
+Para autenticar-se, utilize o seguinte acesso padrão:
+login: ``admin`` / senha: ``123``
+
+## Screenshot
+Segue uma captura de tela de uma das duas listagens presentes no exemplo:
+![Captura de tela do sistema](screenshot.png  "Captura de tela da listagem de registros")
